@@ -1,0 +1,110 @@
+
+body{
+    background:#4e89ae;
+}
+/* 
+.body{
+} */
+
+
+/* ----------------------------HEADER----------------------------- */
+.header{
+    padding: 0px 0px 20px 0px;  
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.navbar{
+    background-color: #43658b;
+    
+}
+.navbar a,li{
+    color: #ffa372;
+}
+
+
+
+/* ---------------------------TABLE------------------------------- */
+.table-wrapper{
+    padding: 0px 40px 0px 40px;
+}
+.table{
+   
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #43658b;
+}
+
+.table td,th{
+    border: #ed6663 solid 1px !important;
+}
+
+thead{
+    background-color: #ed6663 ;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  
+}
+
+tbody tr{
+    background-color: #ffa372;
+}
+
+tbody tr:hover{
+    background-color: #ed6663 ;
+    
+}
+
+tbody a,button{
+    color:  #43658b;
+}
+
+
+.page-item.active .page-link {
+    z-index: 1;
+    color:#43658b;
+    background-color: #ed6663;
+    border-color: #ed6663;
+}
+
+/* ---------------------------ADD BUTTON---------------------------- */
+.button-add{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.button-add .btn{
+    background-color: #ed6663;
+}
+
+.button-add i{
+    color: #43658b;
+}
+
+
+/* ---------------------------FORM WRAPPER---------------------------- */
+
+.form-wrapper{
+    width: 60%;
+    background-color: #ffa372;
+    padding:50px 2% 50px 2%;
+    margin: 0 auto;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color:#43658b;
+}
+
+.form-wrapper h2{
+    padding-bottom:20px ;
+    text-transform: uppercase;
+}
+.form-group label{
+    margin-bottom:-20px;
+}
+
+.form-wrapper .btn{
+    color:#43658b;
+
+}
